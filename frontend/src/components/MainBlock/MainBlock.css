@@ -1,0 +1,36 @@
+#form {
+  font-size: var(--medium-font-size);
+}
+
+
+#form-style {
+  width: 90%;
+  height: 100%;
+  padding: 10%
+}
+
+#graph-style {
+    padding: var(--graph-style-padding-top) 0% 10% var(--graph-style-padding-left);
+}
+
+@media screen and (min-width: 360px) {
+  #form {
+    padding: 5% 0 0 10%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #form {
+    column-count: 2;
+    column-gap: 10%;
+    padding: 5% 0 0 10%;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  #form {
+    column-count: 2;
+    column-gap: 10%;
+    padding: 5% 0 0 10%;
+  }
+}

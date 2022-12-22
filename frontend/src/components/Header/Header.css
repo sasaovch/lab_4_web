@@ -1,0 +1,34 @@
+#header {
+    height: 20%;
+    font-size: var(--small-font-size);
+    text-transform: uppercase;
+    text-align: center;
+    transition: 0.3s;
+    user-select: none;
+}
+
+#header:hover {
+    text-shadow: 1px 1px 1px var(--first-shadow),
+    1px 2px 1px var(--first-shadow),
+        1px 3px 1px var(--first-shadow),
+        1px 4px 1px var(--first-shadow),
+        1px 18px 6px var(--second-shadow),
+        1px 22px 10px var(--third-shadow),
+    1px 25px 35px var(--third-shadow),
+    1px 30px 60px var(--second-shadow);
+    opacity: 1;
+    transition: 0.3s;
+}
+
+#group {
+    display: var(--hidden);
+    padding-left:5%;
+    padding-top: 5px;
+    width: 10%;
+    float: left;
+}
+
+#name {
+    width: var(--header-name-width);
+    float: right;
+}

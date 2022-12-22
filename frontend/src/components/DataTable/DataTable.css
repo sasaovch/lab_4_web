@@ -1,0 +1,22 @@
+#table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-left:auto;
+    margin-right:auto;
+    border: 1%  solid var(--main-color);
+    border-radius: 1%;
+    overflow: hidden;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+#table thead tr {
+    background-color: var(--main-color);
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+}
+
+#table th, td {
+    border: 1px solid var(--main-color);
+}

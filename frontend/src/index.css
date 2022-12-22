@@ -1,0 +1,49 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Raleway, sans-serif;
+}
+
+html {
+    /* height: 100%;
+    width: 100%; */
+    background: linear-gradient(90deg, #c7c5f4 0%, #776bcc 100%);
+}
+
+body {
+    /* min-height: 1vh; */
+    background: linear-gradient(90deg, #c7c5f4 0%, #776bcc 100%);
+}
+
+body {
+    --font-color:#333;
+    --bg-color: linear-gradient(90deg, #c7c5f4, #776bcc);
+    --main-color: #c7c5f4;
+    --sub-color: rgba(7,217,242,1);
+    --last-color: rgba(0,255,209,1);
+    --first-shadow: #919191;
+    --second-shadow: rgba(16,16,16,0.4);
+    --third-shadow: rgba(16,16,16,0.2);
+    --border-color: royalblue;
+    --button-first-color: rgba(0,234,255,1);
+    --button-second-color:#000;
+    --button-third-color: rgba(0,255,209,1);
+    --form-color:#fff;
+}
+body.dark-theme {
+    --font-color:#fff;
+    --bg-color: #161625;
+    --main-color: #020024;
+    --sub-color: #090979;
+    --last-color: #299eb6;
+    --first-shadow: #b8b8b8;
+    --second-shadow: rgba(197, 197, 197, 0.4);
+    --third-shadow: rgba(255, 255, 255, 0.2);
+    --border-color: #a29eff;
+    --button-first-color: rgb(2, 168, 184);
+    --button-second-color:rgb(2, 83, 175);
+    --button-third-color: rgb(28, 6, 223);
+    --form-color: rgb(123, 122, 131);
+}
+  

@@ -1,0 +1,15 @@
+.footer {
+    color: #7875b5;
+    width: 100%;
+    height: var(--footer-height);
+    user-select: none;
+}
+
+.fixed_footer{
+    height: var(--footer-height);
+    width: 100%;
+    padding: 0% 10% 0% 10% ;
+    background: #111;
+    position: fixed; left: 0; bottom: 0;
+    z-index: -100;
+}
